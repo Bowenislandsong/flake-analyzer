@@ -1,5 +1,6 @@
 name: Post Report As Comment On PR
 on:
+  pull_request:
   schedule:
     - cron: '*/5 * * * *'
 check_run:
